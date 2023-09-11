@@ -56,22 +56,22 @@ body{
     flex-wrap: wrap;
     justify-content: flex-end;
 }
-.header .links .icon .span {
+.header .links .icon span {
     background-color: #333;
     margin-bottom: 5px;
     height: 2px;
 }
-.header .links .icon .span:first-child {
+.header .links .icon span:first-child {
     width: 100%;
 }
-.header .links .icon .span:nth-child(2) {
+.header .links .icon span:nth-child(2) {
     width: 60%;
     transition: 0.3s;
 }
-.header .links .icon .span:last-child {
+.header .links .icon span:last-child {
     width: 100%;
 }
-.header .links .ul {
+.header .links ul {
         list-style: none;
             margin: 0;
             padding: 0;
@@ -83,7 +83,7 @@ body{
             display: none;
             z-index: 1;
 }
-.header .links .ul::before {
+.header .links ul::before {
 content: "";
 border-width: 10px;
 border-style: solid;
